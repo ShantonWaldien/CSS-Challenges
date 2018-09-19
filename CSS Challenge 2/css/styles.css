@@ -1,0 +1,75 @@
+body{
+  margin-top: 50px;
+  font-family: verdana;
+  font-size: 14px;
+  background-color: #4ca1af;
+  line-height: 25px;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+
+}
+section{
+  margin-right: 20px;
+  margin-left: 250px;
+}
+h1{
+  letter-spacing: 1px;
+}
+h2{
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+p{
+  font-size: 15px;
+  font-family: georgia;
+  padding-right: 400px;
+  text-indent: 20px
+
+}
+a:hover{
+  text-decoration: none;
+}
+a{
+  color: white;
+}
+.courses{
+ float: right;
+ padding-left: 80px;
+}
+/* Navbar styling */
+nav{
+  overflow: hidden;
+  float:right;
+  position: fixed;
+}
+nav a {
+  text-align: center;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+nav a:hover{
+  background-color: white;
+}
+.sidenav {
+  border: 1px;
+  line-height: 50px;
+  padding: 10px;
+}
+a:focus{
+  outline: none;
+}
+.active{
+  outline: none;
+  background-color: white;
+}
+a[href^="https://"]:after{
+    content: url(https://cdn1.iconfinder.com/data/icons/documents-6/512/link-16.png);
+}
+
+/* list styling */
+li{
+  list-style-image: url(https://cdn4.iconfinder.com/data/icons/glyphs/24/icons_play-16.png);
+  line height: 30px;
+  letter-spacing: 3px;
+}
