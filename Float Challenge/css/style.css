@@ -1,0 +1,69 @@
+.box1 {
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    float: left;
+    
+}
+
+.box2 {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    float: left;
+    text-align: center;
+}
+
+.box3 {
+    background-color: purple;
+    height: 200px;
+    width: 200px;
+    float: right;
+    text-align: center;
+}
+
+.box4 {
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    float: right;
+    text-align: center;
+}
+
+.box1:hover {
+    background-color: yellow;
+} 
+
+.box2:hover {
+    background-color: purple;
+} 
+
+.box4:hover {
+    background-color: red;
+    width: 600px;
+} 
+
+.box3:hover {
+    background-color: blue;
+    width: 50px;
+} 
+
+.box1:active {
+    background-color: green;
+}
+
+.box2:active {
+    background-color: pink;
+}
+
+.box2:active {
+    background-color: grey;
+}
+
+.box3:active {
+    background-color: black;
+}
+
+.box4:active {
+    background-color: peru;
+}

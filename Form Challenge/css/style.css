@@ -1,0 +1,93 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(../img/whisky.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-color: rgba(255, 255, 255, 0.3);
+  height: 100vh;
+  color: white;
+  font-family: verdana;
+  font-size: 30px;
+
+
+}
+
+h1{
+
+  font-size: 40px;
+  padding: 0 13px;
+}
+
+
+p{
+  font-size: 20px;
+  padding: 0 13px;
+}
+
+.text{
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid #001b38;
+
+}
+
+.text i{
+  width: 26px;
+  float: left;
+  text-align: center;
+
+}
+
+.text input{
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bolder;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+
+}
+.button{
+  width: 100%;
+  background: none;
+  border: 2px solid #001b38;
+  color: white;
+  padding: 5px;
+  font-weight: bolder;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 12px 0;
+}
+
+footer{
+  position: sticky;
+  margin-top: 600px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #001b38;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  clear: both;
+}
+
+a:link{
+  color: #001b38;
+  text-decoration-line: none;
+}
+
+
+a:visited{
+  color:#001b38;
+  text-decoration-line: none;
+}
